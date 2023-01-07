@@ -7,7 +7,7 @@
 
 .header {
     color: #151414;
-    background-image: url('../assets/images/banner/banner2.png');
+    background-image: url('./images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 216px 230px;
@@ -109,7 +109,7 @@
 
 .image-gradiant{
     border-radius: 5px;
-    background-image: url('../assets/images/gradient2.png'), url('../assets/images/watch.png');
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
     background-blend-mode:overlay;
     background-repeat: no-repeat;
     display: flex;
