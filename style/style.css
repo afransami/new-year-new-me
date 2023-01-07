@@ -110,20 +110,35 @@
 /* image section style */
 
 .image-gradiant{
-    background-image: url('/assets/images/watch.png');
+    background-image: url('../assets/images/watch.png');
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    margin: 0px 300px;
+    background-size: cover;
+    margin: 100px 250px;
+    border-radius: 5px;
+}
+.Section-positive{
+    display: flex;
+    justify-content: space-around;
+    background-position: left;
+    font-weight: 700;
+    font-size: 40px;
+   
+    
 }
 
 .future{
     display: flex;
     justify-content: space-around;
-    padding: 10px 90px;
+    padding: 130px 300px;
+    background-color: #151414;
+    color: #FFFFFF;
  
 
 }
 
-.article{
+.future-title{
+    text-align: left;
+    margin-left: 20px;
 
 }
